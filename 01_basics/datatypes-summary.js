@@ -38,15 +38,15 @@
 
 
 
-const heros = ["shaktiman", "junior ji", "Hatim", "VikralGabral"]
-console.log(heros);
-console.log(typeof heros);      // object
+// const heros = ["shaktiman", "junior ji", "Hatim", "VikralGabral"]
+// console.log(heros);
+// console.log(typeof heros);      // object
 
-const myObject = {
-    name :"prashant",
-    age:24,
-}
-console.log(myObject)
+// const myObject = {
+//     name :"prashant",
+//     age:24,
+// }
+// console.log(myObject)
 
 
 // const myfunction=function (){
@@ -54,3 +54,30 @@ console.log(myObject)
 // }
 
 //  console.log(typeof myfunction); //objectFunction or function 
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//  Stack and Heap Memory
+ 
+//Stack (primitive )
+// Heap (non primitive)
+
+// let myYoutubeName = "PrashantAwati";
+// let anotherYoutubeName = myYoutubeName;
+
+// anotherYoutubeName="Vishwajit Lakhan";
+
+// console.log(myYoutubeName);
+// console.log(anotherYoutubeName)
+
+
+let userOne= {
+    name:"prashant ananda awati",
+    email:"prashant@google.com"
+}
+
+let userTwo = userOne;
+
+userTwo.email= "prashant@dell.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
