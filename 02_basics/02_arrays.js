@@ -18,5 +18,17 @@ const all_New_heros = [...marvel_heros, ...dc_heros];
 
 const another_array = [2,2,[12,4,5,63,8,[4,546,5,55,4,55663,313,],9,6,4],3255,5,5,5,]
 const real_another_array = another_array.flat(Infinity);
-console.log(real_another_array);
+//console.log(real_another_array);
+
+// console.log(Array.isArray("Prashant"));
+// console.log(Array.from("Prashant"));
+// console.log(Array.from({name: "prashant"})); // intresting
+
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+
+console.log(Array.of(score1,score2,score3));      //[ 100, 200, 300 ]
+
 
