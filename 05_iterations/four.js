@@ -10,3 +10,9 @@ for (const key in myObject) {
 
 //console.log(`${key}shortcut is for ${myObject[key]}`)
 }
+
+const porgramming = ["js","rb","py","java","cpp"]
+for(const key in porgramming){
+    //console.log(key)
+    console.log(porgramming[key])
+}

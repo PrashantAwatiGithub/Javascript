@@ -28,9 +28,9 @@
 
  //console.log(map)
 
-//  for (const element of map) {
+  for (const element of map) {
 //     console.log(element)
-//  }
+  }
 
 for (const [key , value] of map) {//destructuring array
     //console.log(key , " :-",value);
