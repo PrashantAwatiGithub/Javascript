@@ -8,5 +8,24 @@ const codding = ["js","ruby","java","python","cpp"]
 
 //arrow function 
 codding.forEach((item)=>{
-console.log(item)
-})
+//console.log(item)
+}) 
+
+const mycoding=[
+    {
+        langaugeName:"javascript",
+        langaugeFileName:"Js"
+    },
+    {
+        langaugeName:"Java",
+        langaugeFileName:"java"
+    },
+    {
+        langaugeName:"Python",
+        langaugeFileName:"Py"
+    }
+]
+
+mycoding.forEach( (item)=> {
+    console.log(item.langaugeName)
+} )
