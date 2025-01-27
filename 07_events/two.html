@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #414141;">
+<div >
+<ul id="images">
+<!-- <li><img width="200px" id="photoshop" src="premium_photo-1683120966127-14162cdd0935.avif" alt="photoshop" onclick="alert('owl')"></li> -->
+<li><img width="200px" id="photoshop" src="premium_photo-1683120966127-14162cdd0935.avif" alt="photoshop" )"></li>
+<li><img width="200px" id="owl" src="premium_photo-1683121718643-fb18d2668d53.avif" alt="river"></li>
+<li><img width="200px" id="river" src="STKE003_DRONE_SIGHTINGS_D.webp" alt="nagaland"></li>
+<li><img width="200px" id="india" src="think-positively-wallpaper-preview.jpg" alt="code"></li>
+<li><a href="google.com" id="google">google</a></li>
+
+</ul>
+</div>
+</body>
+<script>
+   document.getElementById('images').addEventListener('click',function(e){
+  console.log(e)
+  //console.log(e.target);
+  console.log(e.target.parentNode);
+  if(e.target.tagName === 'IMG'){
+    console.log(e.target.id);
+    let removeIt  = e.target.parentNode
+    removeIt.remove(); 
+  }
+  
+  //removeIt.parentNode.removeChild(removeIt)
+
+   },false)    //event propagation by default is false
+   
+
+    
+
+</script>
+</html>
